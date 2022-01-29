@@ -1,0 +1,33 @@
+body {
+
+  background-color: aquamarine;
+}
+hr {
+
+  border-style:none;
+  border-top-style: dotted;
+  height: 0 px;
+  margin: 5 rem;
+  border-width: 7px;
+  width: 3%;
+  border-color: black;
+
+}
+
+h1 {
+  border: 0.5rem outset lime;
+  outline: 0.5rem solid brown;
+  border-radius: 5px;
+  font: bold 3rem sans-serif;
+  color: grey;
+  margin: 2rem;
+  padding: 0.5rem;
+  outline-offset: 0.5rem;
+  box-shadow: 0 0 0  2rem skyblue;
+}
+
+
+h2{
+
+  color: DarkTurquoise;
+}
