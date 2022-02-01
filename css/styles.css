@@ -1,33 +1,166 @@
-body {
+/*  BODY TAG */
 
-  background-color: aquamarine;
-}
-hr {
+body{
 
-  border-style:none;
-  border-top-style: dotted;
-  height: 0 px;
-  margin: 5 rem;
-  border-width: 7px;
-  width: 3%;
-  border-color: black;
-
-}
-
-h1 {
-  border: 0.5rem outset lime;
-  outline: 0.5rem solid brown;
-  border-radius: 5px;
-  font: bold 3rem sans-serif;
-  color: grey;
-  margin: 2rem;
-  padding: 0.5rem;
-  outline-offset: 0.5rem;
-  box-shadow: 0 0 0  2rem skyblue;
+    margin:0;
+    background-color: #d3dedc;
+    
 }
 
 
-h2{
 
-  color: DarkTurquoise;
+h1{
+    margin:10 auto 0 auto;
+    border:none;
+    padding: 2%;
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+    font-size: 60px;
+    color: rebeccapurple;
+}    
+
+#subhead{
+    color: darkturquoise;
+    margin:0;
+    text-align: center;
+    
+    font-family: Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+
+#dev{
+    display:block;
+    position:static;
+    margin: 50px auto;
+    height: 800px;
+    width: 800px;
+   
+   
+}
+
+#python{
+    display: inline;
+    position: sticky;
+    top: 70%;
+    left:10%;
+    height: 200px;
+    width: 200px;
+    
+  
+}
+
+#linux{
+    display: inline;
+    position: sticky;
+    top: 70%;
+    left:80%;
+    height: 200px;
+    width: 200px;
+}
+
+
+.bullet{
+    color: white;
+}
+
+
+
+.mid-left{
+    display: inline-block;  
+    position: static;
+    margin-left: 5%;
+    height: 500px;
+    width: 500px;
+     
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    color: darkturquoise;
+}
+
+.mid-center{
+    display: inline-block; 
+    position: absolute;
+    margin-left:7%;
+    margin-right:auto;
+    height: 500px;
+    width: 500px;
+      
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    color: darkturquoise;
+}
+    
+.mid-right{
+    display:inline-block;
+    position: absolute;
+    left: 70%;
+    height: 500px;
+    width: 500px;
+   
+    text-align: center;
+    
+}
+
+
+#list{
+    text-align: center;
+    color: rebeccapurple;
+}
+
+#list-title{
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    color: darkturquoise;
+    font-size: 40px;
+}
+
+
+/*
+.top{
+
+    
+    height:300px;
+    width:300px;
+    margin: 10px 0 0 10px;
+    border:none;
+    border-width: 10px;
+    border-radius: 0%;
+    padding:10px;
+       
+  
+}
+
+
+
+.mid{
+
+ 
+}
+*/
+
+.mid{
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    font-size: 30px;
+   }
+
+#profile{
+    font-size:50px;
+
+}
+
+#profilepic{
+    height: 400px;
+    width: 400px;
+}
+
+.bottom{
+    height:300px;
+    width:300px;
+    background-color: blue;
+    border:solid;
+    border-style: groove;
+    border-width: 30px;
+    margin:0 0 0 690px;
 }
